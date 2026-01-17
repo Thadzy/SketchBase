@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+:root {
+  --color-primary: #111827 !important;        /* gray-900 */
+  --color-primary-darker: #000000 !important; /* black */
+  --color-primary-light: #F3F4F6 !important;  /* gray-100 */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.excalidraw .App-toolbar {
+  border-radius: 12px !important;
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1) !important; 
+  border: 1px solid #e5e7eb !important;
+}
+
+.excalidraw .ToolIcon__icon.active {
+  background-color: #111827 !important;
+  color: white !important;
+}
